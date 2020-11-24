@@ -32,7 +32,8 @@ jobs:
 
       # 上传腾讯云
       - name: 发布到腾讯云
-        uses: easingthemes/ssh-deploy@v2.1.1
+        # uses: easingthemes/ssh-deploy@v2.1.1
+        uses: easingthemes/ssh-deploy@v2.0.7
         env:
           # 秘钥
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
