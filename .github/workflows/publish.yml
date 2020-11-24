@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@master
 
       # 安装 node10
-      - name 安装node.js
+      - name: 安装node.js
         # 使用 action 库  actions/setup-node 安装 node
         uses: actions/setup-node@v1
         with:
