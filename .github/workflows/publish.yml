@@ -41,8 +41,8 @@ jobs:
           # 源目录
           SOURCE: "dist"
           # 服务器IP： 换成自己的服务器Ip
-          REMOTE_HOST: ""
+          REMOTE_HOST: "111.230.148.119"
           # 用户
           REMOTE_USER: "root"
           # 目标地址
-          TARGET: "/root/vue-in-action"
+          TARGET: "/usr/share/nginx/html/xfz/vue3"
