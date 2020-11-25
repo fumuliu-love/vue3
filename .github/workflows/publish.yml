@@ -38,7 +38,7 @@ jobs:
           # 秘钥
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
           # scp 参数
-          ARGS: "-avzr --delete"
+          ARGS: "-avz --delete"
           # 源目录
           SOURCE: "dist"
           # 服务器IP： 换成自己的服务器Ip
